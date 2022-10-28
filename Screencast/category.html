@@ -14,7 +14,7 @@
 	<nav class="navbar navbar-light bg-light">
 		<div class="container">
 			<a href="index.html" class="navbar-brand me-0"><img src="img/40x40.png" alt="Brand Logo" class="me-2">
-				Category</a>
+				Knowledge Base</a>
 			<div class="dropdown">
 				<button type="button" class="btn btn-secondary btn-sm dropdown-toggle" id="dropdownLanguage"
 					data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">English</button>
@@ -154,9 +154,8 @@
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/smooth-scroll.min.js"></script>
 	<script>
-		var Scrollbar = window.Scrollbar;
-
-		Scrollbar.init(document.querySelector('#section'));	</script>
+		var scroll = new SmoothScroll('a[href*="#section"]');
+	</script>
 </body>
 
 </html>
